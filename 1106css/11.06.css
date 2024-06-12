@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(25, 208, 235);
+    background: linear-gradient(153deg, rgba(25, 208, 235, 1) 0%, rgba(145, 164, 200, 1) 40%, rgba(223, 109, 220, 1) 90%);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+}
+
+/* outline:none borderi ummiyyetle gorunmur */
+form {
+    width: 350px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+form h1 {
+    text-align: center;
+    padding-top:10px;
+}
+
+form p {
+    margin-bottom: 10px;
+    color: rgb(113, 0, 0);
+}
+
+ input{
+    width: 250px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid orangered;
+}
+select{
+    width: 250px;
+    margin: 0 0 20px 0;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid orangered;
+}
+#message{
+    width: 250px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid orangered;
+}
+#message:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+footer input{
+    background: linear-gradient(153deg, rgba(25, 208, 235, 1) 0%, rgba(145, 164, 200, 1) 40%, rgba(223, 109, 220, 1) 90%);
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius:8px ;
+    margin: 40px 0 0 30px;
+    cursor: pointer;
+}
+footer input:hover{
+    box-shadow: 0px 0px 10px #4b003e;
+}
+

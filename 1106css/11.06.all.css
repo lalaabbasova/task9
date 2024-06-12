@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 1200px;
+    height: 900px;
+    display: inline;
+    padding: 30px;
+}
+.if1{
+    width:500px;
+    height: 740px;
+
+}
+.if2{
+    width: 900px;
+    height: 780px;
+}
+.if3{
+    width: 1500px;
+    height: 800px;
+}
